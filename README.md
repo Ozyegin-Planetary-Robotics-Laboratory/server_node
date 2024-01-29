@@ -2,7 +2,7 @@
 Build the package by running `catkin_make` in the root folder, then do `source devel/setup.bash` (or `source devel/setup.zsh`if you are using zshell) so that your terminal is aware of the newly compiled binaries.
 Then finally, run the this command,
 ```bash
-roslaunch server_node server_node
+roslaunch server_node map.launch
 ```
 ## Configuration
 Within the file `config/cfg.yaml` lies three parameters.
